@@ -1,7 +1,11 @@
 spring:
   profiles:
-    active: dog,EN,qa
+    active:
+      - dog
+      - EN
+      - qa
 guru:
   username: YmlUserName
   password: YmlDBPassword
   jdbcUrl: YmlUrlForDB
+
